@@ -19,3 +19,5 @@ targetOp{
 }
 // Call the defined operator group for the target method
 targetOp<"triangle.Triangle::classify(int,int,int)">;
+targetOp<"UpgradedTriangle::classify(int,int,int)">;
+targetOp<"UpgradedTriangle::calculateArea(int,int,int)">;
