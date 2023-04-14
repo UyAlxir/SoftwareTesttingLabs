@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=BubbleSort, method=sort, methodDesc=([II)[I], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=BubbleSort.java, block=[3], lineNumber=7, description=changed conditional boundary, testsInOrder=[]]

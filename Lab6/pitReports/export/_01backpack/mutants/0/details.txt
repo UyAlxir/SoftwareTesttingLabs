@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=_01backpack, method=backpack, methodDesc=([I[II)I], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=_01backpack.java, block=[0], lineNumber=4, description=Replaced integer addition with subtraction, testsInOrder=[]]

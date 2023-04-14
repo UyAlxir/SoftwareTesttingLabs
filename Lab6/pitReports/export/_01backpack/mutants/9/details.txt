@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=_01backpack, method=backpack, methodDesc=([I[II)I], indexes=[101], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator], filename=_01backpack.java, block=[13], lineNumber=11, description=Changed increment from 1 to -1, testsInOrder=[]]

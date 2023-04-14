@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=BubbleSort, method=sort, methodDesc=([II)[I], indexes=[25], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator], filename=BubbleSort.java, block=[3], lineNumber=7, description=Replaced integer subtraction with addition, testsInOrder=[]]

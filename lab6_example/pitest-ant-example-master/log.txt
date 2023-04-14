@@ -1,0 +1,343 @@
+Adding reference: ant.PropertyHelper
+Detected Java version: 1.8 in: E:\applications\Java\java8
+Detected OS: Windows 10
+Adding reference: ant.ComponentHelper
+Setting ro project property: ant.file -> D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build.xml
+Setting ro project property: ant.file.type -> file
+Adding reference: ant.projectHelper
+Adding reference: ant.parsing.context
+Adding reference: ant.targets
+parsing buildfile D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build.xml with URI = file:/D:/AtTJU/SoftwareTesting/labs/lab6_example/pitest-ant-example-master/build.xml
+Setting ro project property: ant.project.name -> pit-ant-example
+Adding reference: pit-ant-example
+Setting ro project property: ant.file.pit-ant-example -> D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build.xml
+Setting ro project property: ant.file.type.pit-ant-example -> file
+Project base dir set to: D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master
+ +Target: 
+ +Target: clean
+ +Target: compile
+ +Target: test
+ +Target: pit
+Adding reference: ant.LocalProperties
+parsing buildfile jar:file:/D:/AtTJU/SoftwareTesting/labs/lab3/major/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/D:/AtTJU/SoftwareTesting/labs/lab3/major/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+Setting project property: classOutputDir -> build
+Adding reference: pitest.path
+Finding class org.pitest.ant.PitestTask
+Loaded from D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-ant-1.9.3.jar org/pitest/ant/PitestTask.class
+Class org.apache.tools.ant.Task loaded from parent loader (parentFirst)
+Class org.pitest.ant.PitestTask loaded from ant loader (parentFirst)
+Class java.lang.Throwable loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.BuildException loaded from parent loader (parentFirst)
+Class java.lang.Object loaded from parent loader (parentFirst)
+Class java.util.Map loaded from parent loader (parentFirst)
+Class java.lang.String loaded from parent loader (parentFirst)
+Finding class org.pitest.mutationtest.config.ConfigOption
+Loaded from D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-entry-1.9.3.jar org/pitest/mutationtest/config/ConfigOption.class
+Class java.lang.Enum loaded from parent loader (parentFirst)
+Class org.pitest.mutationtest.config.ConfigOption loaded from ant loader (parentFirst)
+Class java.io.Serializable loaded from parent loader (parentFirst)
+Class java.lang.Boolean loaded from parent loader (parentFirst)
+Class java.lang.Integer loaded from parent loader (parentFirst)
+Class java.lang.Float loaded from parent loader (parentFirst)
+Class java.lang.Long loaded from parent loader (parentFirst)
+Class java.nio.charset.Charset loaded from parent loader (parentFirst)
+ +Datatype pitest org.pitest.ant.PitestTask
+Adding reference: test.path
+Setting ro project property: ant.project.invoked-targets -> pit,true
+Attempting to create object of type org.apache.tools.ant.helper.DefaultExecutor
+Adding reference: ant.executor
+Build sequence for target(s) `pit' is [clean, compile, test, pit]
+Complete build sequence is [clean, compile, test, pit, ]
+
+clean:
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes\com\example\ExecutedByTestsButNotActuallyTestedByThem.class
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes\com\example\NoTestCoverage.class
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes\com\example\PartiallyTested.class
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes\com\example
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes\com
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes\com\example\ExecutedByTestsButNotActuallyTestedByThemTest.class
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes\com\example\PartiallyTestedTest$1.class
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes\com\example\PartiallyTestedTest.class
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes\com\example
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes\com
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\all-tests.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\allclasses-frame.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\alltests-errors.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\alltests-fails.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\alltests-skipped.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\com\example\0_ExecutedByTestsButNotActuallyTestedByThemTest.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\com\example\1_PartiallyTestedTest.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\com\example\package-frame.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\com\example\package-summary.html
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\com\example
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\com
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\index.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\overview-frame.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\overview-summary.html
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report\stylesheet.css
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\report
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\TEST-com.example.ExecutedByTestsButNotActuallyTestedByThemTest.xml
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\TEST-com.example.PartiallyTestedTest.xml
+Deleting D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\TESTS-TestSuites.xml
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result
+Deleting directory D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build
+
+compile:
+Created dir: D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes
+fileset: Setup scanner in dir D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\src with patternSet{ includes: [] excludes: [] }
+com\example\ExecutedByTestsButNotActuallyTestedByThem.java added as com\example\ExecutedByTestsButNotActuallyTestedByThem.class doesn't exist.
+com\example\NoTestCoverage.java added as com\example\NoTestCoverage.class doesn't exist.
+com\example\PartiallyTested.java added as com\example\PartiallyTested.class doesn't exist.
+Compiling 3 source files to D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes
+Using modern compiler
+Compilation arguments:
+'-d'
+'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes'
+'-classpath'
+'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes'
+'-sourcepath'
+'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\src'
+'-g:source,lines'
+
+The ' characters around the executable and arguments are
+not part of the command.
+Files to be compiled:
+    D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\src\com\example\ExecutedByTestsButNotActuallyTestedByThem.java
+    D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\src\com\example\NoTestCoverage.java
+    D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\src\com\example\PartiallyTested.java
+
+test:
+Created dir: D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result
+Created dir: D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes
+fileset: Setup scanner in dir D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\test with patternSet{ includes: [] excludes: [] }
+com\example\ExecutedByTestsButNotActuallyTestedByThemTest.java added as com\example\ExecutedByTestsButNotActuallyTestedByThemTest.class doesn't exist.
+com\example\PartiallyTestedTest.java added as com\example\PartiallyTestedTest.class doesn't exist.
+Compiling 2 source files to D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes
+Using modern compiler
+Compilation arguments:
+'-d'
+'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes'
+'-classpath'
+'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\hamcrest-all-1.3.jar;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\junit-4.13.2.jar'
+'-sourcepath'
+'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\test'
+'-g:none'
+
+The ' characters around the executable and arguments are
+not part of the command.
+Files to be compiled:
+    D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\test\com\example\ExecutedByTestsButNotActuallyTestedByThemTest.java
+    D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\test\com\example\PartiallyTestedTest.java
+Found D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\junit-4.11.jar
+Found D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-launcher.jar
+Found D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant.jar
+Found D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit.jar
+Found D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit4.jar
+fileset: Setup scanner in dir D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\test with patternSet{ includes: [**/*Test.java] excludes: [] }
+Using System properties {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=E:\applications\Java\java8\bin, java.vm.version=25.361-b09, ant.library.dir=D:\AtTJU\SoftwareTesting\labs\lab3\major\lib, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master, java.runtime.version=1.8.0_361-b09, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=E:\applications\Java\java8\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, ant.home=D:\AtTJU\SoftwareTesting\labs\lab3\major, sun.jnu.encoding=GBK, java.library.path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\applications\Anaconda;E:\applications\Anaconda\Library\mingw-w64\bin;E:\applications\Anaconda\Library\usr\bin;E:\applications\Anaconda\Library\bin;E:\applications\Anaconda\Scripts;E:\applications\Anaconda\bin;E:\applications\Anaconda\condabin;C:\Users\Administrator\bin;E:\applications\Git\mingw64\bin;E:\applications\Git\usr\local\bin;E:\applications\Git\usr\bin;E:\applications\Git\usr\bin;E:\applications\Git\mingw64\bin;E:\applications\Git\usr\bin;C:\Users\Administrator\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\libnvvp;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files\Bandizip;E:\applications\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.4.1;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\applications\Anaconda\Scripts;C:\Program Files\dotnet;E:\applications\putty;E:\applications\Xshell;E:\applications\?D?web?a·￠??¤??\dll;C:\Users\Administrator\.jdks\corretto-1.8.0_362\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\applications\Microsoft VS Code\bin;E:\applications\PyCharm Community Edition 2022.3.2\bin;E:\applications\IntelliJ IDEA 2021.1\bin;D:\AtTJU\SoftwareTesting\labs\lab3\major\bin;E:\applications\Git\usr\bin\vendor_perl;E:\applications\Git\usr\bin\core_perl;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\Administrator, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.8, java.class.path=D:/AtTJU/SoftwareTesting/labs/lab3/major/bin/../lib/ant-launcher.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-antlr.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-bcel.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-bsf.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-log4j.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-oro.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-regexp.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-resolver.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-xalan2.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-bootstrap.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-commons-logging.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-commons-net.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-jai.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-javamail.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-jdepend.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-jmf.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-jsch.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit4.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-launcher.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-netrexx.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-swing.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\junit-4.11.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\major.jar;E:\applications\Java\java8\lib\tools.jar, user.name=Administrator, java.vm.specification.version=1.8, sun.java.command=D:/AtTJU/SoftwareTesting/labs/lab3/major/bin/../lib/ant-launcher.jar pit -verbose true -d -e -l log.txt, java.home=E:\applications\Java\java8, sun.arch.data.model=64, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_361, java.ext.dirs=E:\applications\Java\java8\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=E:\applications\Java\java8\lib\resources.jar;E:\applications\Java\java8\lib\rt.jar;E:\applications\Java\java8\lib\jsse.jar;E:\applications\Java\java8\lib\jce.jar;E:\applications\Java\java8\lib\charsets.jar;E:\applications\Java\java8\lib\jfr.jar;E:\applications\Java\java8\classes;D:/AtTJU/SoftwareTesting/labs/lab3/major/bin/../config/config.jar, java.vendor=Oracle Corporation, java.specification.maintenance.version=4, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}
+Implicitly adding D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\junit-4.11.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-launcher.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit4.jar to CLASSPATH
+Using CLASSPATH D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\hamcrest-all-1.3.jar;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\junit-4.13.2.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\junit-4.11.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-launcher.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit4.jar
+Class org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter loaded from parent loader (parentFirst)
+Finding class com.example.ExecutedByTestsButNotActuallyTestedByThemTest
+Loaded from D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes com/example/ExecutedByTestsButNotActuallyTestedByThemTest.class
+Class java.lang.Object loaded from parent loader (parentFirst)
+Class com.example.ExecutedByTestsButNotActuallyTestedByThemTest loaded from ant loader (parentFirst)
+Class junit.framework.JUnit4TestAdapter loaded from parent loader (parentFirst)
+Class org.junit.Test loaded from parent loader (parentFirst)
+Class com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl loaded from parent loader (parentFirst)
+Finding class com.example.ExecutedByTestsButNotActuallyTestedByThem
+Loaded from D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes com/example/ExecutedByTestsButNotActuallyTestedByThem.class
+Class com.example.ExecutedByTestsButNotActuallyTestedByThem loaded from ant loader (parentFirst)
+Using System properties {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=E:\applications\Java\java8\bin, java.vm.version=25.361-b09, ant.library.dir=D:\AtTJU\SoftwareTesting\labs\lab3\major\lib, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master, java.runtime.version=1.8.0_361-b09, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=E:\applications\Java\java8\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, ant.home=D:\AtTJU\SoftwareTesting\labs\lab3\major, sun.jnu.encoding=GBK, java.library.path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\applications\Anaconda;E:\applications\Anaconda\Library\mingw-w64\bin;E:\applications\Anaconda\Library\usr\bin;E:\applications\Anaconda\Library\bin;E:\applications\Anaconda\Scripts;E:\applications\Anaconda\bin;E:\applications\Anaconda\condabin;C:\Users\Administrator\bin;E:\applications\Git\mingw64\bin;E:\applications\Git\usr\local\bin;E:\applications\Git\usr\bin;E:\applications\Git\usr\bin;E:\applications\Git\mingw64\bin;E:\applications\Git\usr\bin;C:\Users\Administrator\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\libnvvp;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files\Bandizip;E:\applications\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.4.1;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\applications\Anaconda\Scripts;C:\Program Files\dotnet;E:\applications\putty;E:\applications\Xshell;E:\applications\?D?web?a·￠??¤??\dll;C:\Users\Administrator\.jdks\corretto-1.8.0_362\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\applications\Microsoft VS Code\bin;E:\applications\PyCharm Community Edition 2022.3.2\bin;E:\applications\IntelliJ IDEA 2021.1\bin;D:\AtTJU\SoftwareTesting\labs\lab3\major\bin;E:\applications\Git\usr\bin\vendor_perl;E:\applications\Git\usr\bin\core_perl;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\Administrator, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.8, java.class.path=D:/AtTJU/SoftwareTesting/labs/lab3/major/bin/../lib/ant-launcher.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-antlr.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-bcel.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-bsf.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-log4j.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-oro.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-regexp.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-resolver.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-apache-xalan2.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-bootstrap.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-commons-logging.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-commons-net.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-jai.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-javamail.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-jdepend.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-jmf.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-jsch.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit4.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-launcher.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-netrexx.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-swing.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\junit-4.11.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\major.jar;E:\applications\Java\java8\lib\tools.jar, user.name=Administrator, java.vm.specification.version=1.8, sun.java.command=D:/AtTJU/SoftwareTesting/labs/lab3/major/bin/../lib/ant-launcher.jar pit -verbose true -d -e -l log.txt, java.home=E:\applications\Java\java8, sun.arch.data.model=64, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_361, java.ext.dirs=E:\applications\Java\java8\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=E:\applications\Java\java8\lib\resources.jar;E:\applications\Java\java8\lib\rt.jar;E:\applications\Java\java8\lib\jsse.jar;E:\applications\Java\java8\lib\jce.jar;E:\applications\Java\java8\lib\charsets.jar;E:\applications\Java\java8\lib\jfr.jar;E:\applications\Java\java8\classes;D:/AtTJU/SoftwareTesting/labs/lab3/major/bin/../config/config.jar, java.vendor=Oracle Corporation, java.specification.maintenance.version=4, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}
+Implicitly adding D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\junit-4.11.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-launcher.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit4.jar to CLASSPATH
+Using CLASSPATH D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\hamcrest-all-1.3.jar;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\junit-4.13.2.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\junit-4.11.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-launcher.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit.jar;D:\AtTJU\SoftwareTesting\labs\lab3\major\lib\ant-junit4.jar
+Class org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter loaded from parent loader (parentFirst)
+Finding class com.example.PartiallyTestedTest
+Loaded from D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes com/example/PartiallyTestedTest.class
+Class java.lang.Object loaded from parent loader (parentFirst)
+Class com.example.PartiallyTestedTest loaded from ant loader (parentFirst)
+Class java.lang.Comparable loaded from parent loader (parentFirst)
+Class junit.framework.JUnit4TestAdapter loaded from parent loader (parentFirst)
+Class org.junit.Test loaded from parent loader (parentFirst)
+Class com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl loaded from parent loader (parentFirst)
+Finding class com.example.PartiallyTestedTest$1
+Loaded from D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes com/example/PartiallyTestedTest$1.class
+Class com.example.PartiallyTestedTest$1 loaded from ant loader (parentFirst)
+Finding class com.example.PartiallyTested
+Loaded from D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes com/example/PartiallyTested.class
+Class com.example.PartiallyTested loaded from ant loader (parentFirst)
+Class java.lang.Integer loaded from parent loader (parentFirst)
+Class org.junit.Assert loaded from parent loader (parentFirst)
+fileset: Setup scanner in dir D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result with patternSet{ includes: [TEST-*.xml] excludes: [] }
+Parsing file: 'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\TEST-com.example.ExecutedByTestsButNotActuallyTestedByThemTest.xml'
+Parsing file: 'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\TEST-com.example.PartiallyTestedTest.xml'
+Setting project property: org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0 -> C:\Users\ADMINI~1\AppData\Local\Temp\null1397553747
+Using class org.apache.tools.ant.taskdefs.optional.TraXLiaison
+In file D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\TESTS-TestSuites.xml time: 1680601043611
+Out file C:\Users\ADMINI~1\AppData\Local\Temp\null1397553747 time: 0
+Style file null time: 1674429699000
+Processing D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-result\TESTS-TestSuites.xml to C:\Users\ADMINI~1\AppData\Local\Temp\null1397553747
+Loading stylesheet jar:file:/D:/AtTJU/SoftwareTesting/labs/lab3/major/lib/ant-junit.jar!/org/apache/tools/ant/taskdefs/optional/junit/xsl/junit-frames.xsl
+Transform time: 342ms
+Deleting: C:\Users\ADMINI~1\AppData\Local\Temp\null1397553747
+
+pit:
+Adding reference: mutation.path
+Class java.util.HashMap loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.taskdefs.Java loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.Project loaded from parent loader (parentFirst)
+Class java.io.File loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.types.Path loaded from parent loader (parentFirst)
+Finding class org.pitest.mutationtest.commandline.MutationCoverageReport
+Loaded from D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-ant-1.9.3.jar org/pitest/mutationtest/commandline/MutationCoverageReport.class
+Class org.pitest.mutationtest.commandline.MutationCoverageReport loaded from ant loader (parentFirst)
+Class java.lang.Class loaded from parent loader (parentFirst)
+Class java.util.Set loaded from parent loader (parentFirst)
+Class java.util.Iterator loaded from parent loader (parentFirst)
+Class java.util.Map$Entry loaded from parent loader (parentFirst)
+Class java.lang.StringBuilder loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.types.Commandline$Argument loaded from parent loader (parentFirst)
+Executing 'E:\applications\Java\java8\bin\java.exe' with arguments:
+'-classpath'
+'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-1.9.3.jar;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-entry-1.9.3.jar;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-ant-1.9.3.jar'
+'org.pitest.mutationtest.commandline.MutationCoverageReport'
+'--features=+EXPORT'
+'--targetClasses=com.example.*'
+'--includeLaunchClasspath=false'
+'--classPath=D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-1.9.3.jar,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-entry-1.9.3.jar,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-ant-1.9.3.jar,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\hamcrest-all-1.3.jar,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\junit-4.13.2.jar'
+'--sourceDirs=src'
+'--threads=2'
+'--reportDir=pitReports'
+'--targetTests=com.example.*'
+'--verbose=true'
+
+The ' characters around the executable and arguments are
+not part of the command.
+Execute:Java13CommandLauncher: Executing 'E:\applications\Java\java8\bin\java.exe' with arguments:
+'-classpath'
+'D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-1.9.3.jar;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-entry-1.9.3.jar;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-ant-1.9.3.jar'
+'org.pitest.mutationtest.commandline.MutationCoverageReport'
+'--features=+EXPORT'
+'--targetClasses=com.example.*'
+'--includeLaunchClasspath=false'
+'--classPath=D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-1.9.3.jar,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-entry-1.9.3.jar,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-ant-1.9.3.jar,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\hamcrest-all-1.3.jar,D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\junit-4.13.2.jar'
+'--sourceDirs=src'
+'--threads=2'
+'--reportDir=pitReports'
+'--targetTests=com.example.*'
+'--verbose=true'
+
+The ' characters around the executable and arguments are
+not part of the command.
+17:37:24 PIT >> INFO : Project base directory is null
+17:37:24 PIT >> INFO : ---------------------------------------------------------------------------
+17:37:24 PIT >> INFO : Enabled (+) and disabled (-) features.
+17:37:24 PIT >> INFO : -----------------------------------------
+17:37:24 PIT >> INFO : +export         Exports mutants bytecode and other details to disk
+17:37:24 PIT >> INFO : +fann           Filters mutations in classes and methods with matching annotations of class or runtime retention
+17:37:24 PIT >> INFO :   [annotation]    Annotation to avoid (full package name not required)
+17:37:24 PIT >> INFO : +fassert        Filters mutations in compiler generated code for assertions
+17:37:24 PIT >> INFO : +fenum          Filters mutations in enum constructors
+17:37:24 PIT >> INFO : +feswitch       Filters mutations in switch statements on enums
+17:37:24 PIT >> INFO : +ffblock        Filters mutations in code duplicated by finally block inlining
+17:37:24 PIT >> INFO : +ffeach         Filters mutations in compiler generated code that implements for each loops
+17:37:24 PIT >> INFO : +ffloop         Filters any mutations to increments in for loops as they may cause timeouts
+17:37:24 PIT >> INFO : +finfinc        Filters mutations to increments that may cause infinite loops
+17:37:24 PIT >> INFO : +finfit         Filters mutations that may cause infinite loops by removing calls to iterator.next
+17:37:24 PIT >> INFO : +finull         Filters mutations in compiler generated code that checks for null by calling getClass
+17:37:24 PIT >> INFO : +fkotlin        Filters out junk mutations in bytecode created by compiler for kotlin language features
+17:37:24 PIT >> INFO : +flogcall       Filters mutations in code that makes calls to logging frameworks
+17:37:24 PIT >> INFO : +fmrnull        Filters mutations in compiler generated code that inserts Objects.requireNonNull for method references
+17:37:24 PIT >> INFO : +frecord        Filters mutations in compiler generated record code
+17:37:24 PIT >> INFO : +fretequiv      Filters return vals mutants with bytecode equivalent to the unmutated class
+17:37:24 PIT >> INFO : +fsequivequals  Filters equivalent mutations that affect only performance in short cutting equals methods
+17:37:24 PIT >> INFO : +fstati         Filters mutations in static initializers and code called only from them
+17:37:24 PIT >> INFO : +fstrswitch     Filters mutations in compiler generated code for string switch statements
+17:37:24 PIT >> INFO : +ftrywr         Filters mutations in code generated for try with resources statements
+17:37:24 PIT >> INFO : +macos_focus    Auto add java.awt.headless=true to keep keyboard focus on Mac OS
+17:37:24 PIT >> INFO : -auto_threads   Auto set number of threads based on machine
+17:37:24 PIT >> INFO : -classlimit     Limits the maximum number of mutations per class
+17:37:24 PIT >> INFO :   [limit]         Integer value for maximum mutations to create per class
+17:37:24 PIT >> INFO : -git            Git integration
+17:37:24 PIT >> INFO : -kotlin         Support for mutating kotlin bytecode
+17:37:24 PIT >> INFO : ---------------------------------------------------------------------------
+17:37:24 PIT >> FINE : Running report with ReportOptions[targetClasses=[com.example.*], excludedMethods=[], excludedClasses=[], excludedTestClasses=[], codePaths=[], reportDir='pitReports', historyInputLocation=null, historyOutputLocation=null, sourceDirs=[src], classPathElements=[D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-1.9.3.jar, D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-1.9.3.jar, D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-entry-1.9.3.jar, D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-ant-1.9.3.jar, D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\classes, D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build\test-classes, D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\hamcrest-all-1.3.jar, D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\junit-4.13.2.jar], mutators=[], features=[+EXPORT], jvmArgs=[-Djava.awt.headless=true], argLine=null, numberOfThreads=2, timeoutFactor=1.25, timeoutConstant=4000, targetTests=[^com\.example\..*$], loggingClasses=[], verbosity=VERBOSE, failWhenNoMutations=true, skipFailingTests=false, outputs=[HTML], groupConfig=TestGroupConfig [excludedGroups=[], includedGroups=[]], fullMutationMatrix=false, mutationUnitSize=0, shouldCreateTimestampedReports=true, detectInlinedCode=false, exportLineCoverage=false, mutationThreshold=0, coverageThreshold=0, testStrengthThreshold=0, mutationEngine='gregor', javaExecutable='null', includeLaunchClasspath=false, properties={}, maxSurvivors=-1, excludedRunners=[], includedTestMethods=[], testPlugin='', useClasspathJar=false, projectBase=null, inputEncoding=GBK, outputEncoding=GBK]
+17:37:24 PIT >> FINE : System class path is D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-1.9.3.jar;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-entry-1.9.3.jar;D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\lib\pitest-ant-1.9.3.jar
+17:37:24 PIT >> FINE : Maximum available memory is 3607 mb
+17:37:24 PIT >> FINE : Incremental analysis set 11 mutations to a status of NOT_STARTED
+17:37:24 PIT >> INFO : Incremental analysis reduced number of mutations by 0
+17:37:24 PIT >> INFO : Created  3 mutation test units in pre scan
+17:37:25 PIT >> FINE : MINION : Installing PIT agent
+17:37:25 PIT >> INFO : MINION : 错误: 找不到或无法加载主类 org.pitest.coverage.execute.CoverageMinion
+17:37:29 PIT >> SEVERE : Coverage generator Minion exited abnormally due to MINION_DIED
+Exception in thread "main" org.pitest.util.PitError: Coverage generation minion exited abnormally! (MINION_DIED)
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : Java HotSpot(TM) 64-Bit Server VM
+Vendor : Oracle Corporation
+Version : 25.361-b09
+Uptime : 5838
+Input -> 
+BootClassPathSupported : true
+
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : Java HotSpot(TM) 64-Bit Server VM
+Vendor : Oracle Corporation
+Version : 25.361-b09
+Uptime : 5840
+Input -> 
+BootClassPathSupported : true
+
+	at org.pitest.util.Unchecked.translateCheckedException(Unchecked.java:20)
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage(DefaultCoverageGenerator.java:106)
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage(DefaultCoverageGenerator.java:52)
+	at org.pitest.mutationtest.tooling.MutationCoverage.runAnalysis(MutationCoverage.java:148)
+	at org.pitest.mutationtest.tooling.MutationCoverage.runReport(MutationCoverage.java:138)
+	at org.pitest.mutationtest.tooling.EntryPoint.execute(EntryPoint.java:129)
+	at org.pitest.mutationtest.tooling.EntryPoint.execute(EntryPoint.java:57)
+	at org.pitest.mutationtest.commandline.MutationCoverageReport.runReport(MutationCoverageReport.java:98)
+	at org.pitest.mutationtest.commandline.MutationCoverageReport.main(MutationCoverageReport.java:45)
+Caused by: org.pitest.util.PitError: Coverage generation minion exited abnormally! (MINION_DIED)
+
+Please copy and paste the information and the complete stacktrace below when reporting an issue
+VM : Java HotSpot(TM) 64-Bit Server VM
+Vendor : Oracle Corporation
+Version : 25.361-b09
+Uptime : 5838
+Input -> 
+BootClassPathSupported : true
+
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.gatherCoverageData(DefaultCoverageGenerator.java:148)
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage(DefaultCoverageGenerator.java:90)
+	... 7 more
+
+BUILD FAILED
+D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build.xml:105: D:\AtTJU\SoftwareTesting\labs\lab6_example\pitest-ant-example-master\build.xml:105: Java returned: 1
+	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:113)
+	at org.pitest.ant.PitestTask.execute(PitestTask.java:73)
+	at org.pitest.ant.PitestTask.execute(PitestTask.java:51)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:392)
+	at org.apache.tools.ant.Target.performTasks(Target.java:413)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1368)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+	at org.apache.tools.ant.Main.runBuild(Main.java:811)
+	at org.apache.tools.ant.Main.startAnt(Main.java:217)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:280)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:109)
+
+Total time: 8 seconds

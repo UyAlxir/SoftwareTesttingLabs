@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=BubbleSort, method=sort, methodDesc=([II)[I], indexes=[91], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator], filename=BubbleSort.java, block=[10], lineNumber=19, description=replaced return value with null for BubbleSort::sort, testsInOrder=[]]

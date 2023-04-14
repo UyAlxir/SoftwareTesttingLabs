@@ -1,0 +1,1 @@
+MutationDetails [id=MutationIdentifier [location=Location [clazz=_01backpack, method=backpack, methodDesc=([I[II)I], indexes=[107], mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator], filename=_01backpack.java, block=[14], lineNumber=12, description=replaced int return with 0 for _01backpack::backpack, testsInOrder=[]]
